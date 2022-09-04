@@ -10,5 +10,7 @@ public class Main {
         Friend Steven = new Friend(RelationType.ENEMY);
 
         John.sayHello(Steven.getRelationType());
+
+        Steven.sayHello(John.getRelationType());
     }
 }
